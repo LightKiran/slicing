@@ -1,9 +1,82 @@
-.rectangle-copy-2 {
+.container{
+
+    position: relative;
+}
+
+.bdy{
+    font-family: "Nunito Sans";
+}
+
+.left-info{
+    float: left;
+    margin: 147px 963px 948px 190px;
+    position: absolute;
+   /* display: inline;
+    position: relative;*/
+}
+
+.lbl {
+	height: 20px;
+	width: 168.01px;
+	color: rgba(0,0,0,0.65);
+	font-family: "Nunito Sans";
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.right-info{
+    float: right;
+  /*  margin-left: auto;*/
+    height: 842px;
+	width: 850px;
+	border: 1px solid rgba(172,183,191,0.5);
+	border-radius: 4px;
+	background-color: rgba(224,231,255,0.05);
+    margin: 143px 29px 133px 440px;
+    position: absolute;
+}
+
+
+.input {
+	height: 40px;
+	width: 395px;
+	border: 1px solid #E4E9F0;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+    padding: 1px;
+}
+
+.oval {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #46BE8A;
+    background-color: #46BE8A;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 30px;
+    
+    text-align: center;
+    /*padding: 4px;*/
+}
+
+.first-rectangle {
 	height: 236px;
 	width: 249px;
 	border-radius: 6px;
 	background-color: #FFFFFF;
 	box-shadow: 0 6px 16px 0 rgba(46,91,255,0.07);
+    
+   
+}
+
+.title {
+	height: 13px;
+	width: 112px;
+	color: rgba(0,0,0,0.85);
+	font-family: "Nunito Sans";
+	font-size: 11px;
+	line-height: 13px;
 }
 
 .rectangle {
